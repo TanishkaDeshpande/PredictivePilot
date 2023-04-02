@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Algorithm Selection</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Predictive Pilot</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Upload Data.html">Data Upload</a></li>
+        <li class="active"><a href="#">Algorithm Selection</a></li>
+        <li><a href="results.html">Results</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Algorithm Selection</h2>
+    <form action="results.html" method="post">
+      <label for="algorithm">Select an algorithm:</label>
+      <select id="algorithm" name="algorithm">
+        <option value="linear_regression">Linear Regression</option>
+        <option value="logistic_regression">Logistic Regression</option>
+        <option value="decision_tree">Decision Tree</option>
+        <option value="random_forest">Random Forest</option>
+        <option value="neural_network">Neural Network</option>
+        <option value="k_nearest_neighbors">K-Nearest Neighbors</option>
+        <option value="naive_bayes">Naive Bayes</option>
+        <option value="support_vector_machines">Support Vector Machines</option>
+        <option value="principal_component_analysis (PCA)">Principal Component Analysis (PCA)</option>
+        <option value="k_Means_clustering">K-Means Clustering</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Linear regression: Linear regression tries to fit a line to the data that best represents the relationship between the dependent variable and one or more independent variables. This line can then be used to make predictions for new data.
+
+Logistic regression: Logistic regression calculates the probability of the dependent variable being one or the other based on the input variables. It then uses a decision threshold to predict the class of new data.
+
+Decision trees: Decision trees create a tree-like model of decisions and their possible consequences. The model is built by recursively splitting the data into smaller subsets based on the input variables until a stopping criterion is met.
+
+Random forests: Random forests are an ensemble of decision trees. Multiple decision trees are built using different subsets of the data and different input variables, and their predictions are combined to improve accuracy.
+
+Support vector machines (SVM): SVMs try to find the hyperplane that separates the different classes of data with the maximum margin. If the data is not linearly separable, SVMs can use kernel functions to map the data into a higher-dimensional space where it is separable.
+
+K-nearest neighbors (KNN): KNN calculates the distance between the new data point and all existing data points. It then selects the K nearest data points and assigns the new data point the most common class label among those K neighbors.
+
+Naive Bayes: Naive Bayes calculates the probability of a certain class based on the features of the data, using Bayes' theorem. It assumes that all features are independent of each other, hence the name "naive."
+
+Neural networks: Neural networks are modeled after the structure of the human brain. They consist of layers of interconnected nodes that perform mathematical operations on the input data. The network learns to make predictions by adjusting the weights and biases of the nodes based on the input data and the desired output.
